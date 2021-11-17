@@ -1,0 +1,214 @@
+/* HTML  */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* End HTML */
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* End Containers */
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* End Sections */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.first-col {
+  padding-left: 0;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 6% 3% 5% 0;
+}
+
+/* Img-Dog  */
+
+.img-second-column {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  /* z-index: 1;  
+  Voir PDF pour comprendre que si 2 positioné pas besoin de
+  de rajouter le z-index
+   */
+}
+
+.feature-item {
+  padding: 4.5%;
+  /* permet de centrer le texte et laisse place entre elements en mode mobile+tablette */
+}
+
+.feature-i {
+  margin-bottom: 1rem;
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.feature-i:hover {
+  color: #ff4c68;
+}
+
+.feature-h3 {
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .img-second-column {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta--h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0 20%;
+  margin-bottom: 7%;
+}
+
+.cta--buttonApple,
+.cta--buttonPlayStore {
+  margin: 1%;
+  margin-top: 3%;
+}
+
+/* Footer */
+
+.footer--icon {
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.footer-text {
+  color: #8f8f8f;
+}
+
+/* 
+
+autre maniere de cacher l'image qu'on a fais avec lutilisation de z-index.
+
+@media (min-width: 768px) {
+  #title {
+    height: 100vh;
+    overflow: hidden;
+  }
+} */
+
+/* .title--h1 {
+  color: whitesmoke;
+} */
+
+/* 
+Ma transformation 
+.img-second-column {
+  position: absolute;
+  transform: translate(150px, 50px) rotate(30deg);
+  zoom: 65%;
+} */
